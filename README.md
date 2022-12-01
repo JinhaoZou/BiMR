@@ -1,7 +1,10 @@
 # BiMR
-Simulation code for bidirectional Mendelian Randomization model 
-This is the 1.0 version of the BiMR simulation code
-Main simulation code are in the folder R/
+Simulation code for bidirectional Mendelian Randomization model     
+This is the 1.0 version of the BiMR simulation code     
+Main simulation code are in the folder R/     
+
+
+## Overview
 
 After load all functions
 Perform one simulation with bidirectional MR model:
