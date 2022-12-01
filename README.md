@@ -2,14 +2,14 @@
 Simulation code for bidirectional Mendelian Randomization model         
 This is the 1.0 version of the BiMR simulation code          
 Simulation code are in the folder R/            
-You can install in by using code:         
+You can install it using code:         
 `library(devtools)`     
 `install_github("JinhaoZou/BiMR")`  
 
 ## Overview
 Other required packages can be installed through      
-`install.packages("MendelianRandomization")`     
-`install.packages("ivmodel")`      
+`install.packages("MendelianRandomization")` (version 0.6.0 was used for manuscript)  
+`install.packages("ivmodel")` (version 1.81 was used for manuscript)     
 Before run the code, packages should be load             
 `library(MendelianRandomization)`       
 `library(ivmodel)`        
@@ -25,7 +25,9 @@ There are major three functions:
     -  Example: `Sim_all(causal = "uni", method = "all")`
 
 ## Examples for using current method to estimate the causal effect of your interested observational individual data        
-The sample data is saved in folder data 
+The sample data is saved in folder data/    
+
+
 
 
 
