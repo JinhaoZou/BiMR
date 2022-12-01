@@ -26,6 +26,7 @@ There are major three functions:
 
 ## Examples for using current method to estimate the causal effect of your interested observational individual data
 The sample data is saved in folder data/
+- 
 
 
 
