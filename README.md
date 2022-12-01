@@ -1,16 +1,22 @@
 # BiMR
-Simulation code for bidirectional Mendelian Randomization model     
-This is the 1.0 version of the BiMR simulation code     
-Main simulation code are in the folder R/     
-
+Simulation code for bidirectional Mendelian Randomization model         
+This is the 1.0 version of the BiMR simulation code          
+Simulation code are in the folder R/            
+You can install in by using code:         
+`library(devtools)`     
+`install_github("JinhaoZou/BiMR")`  
 
 ## Overview
+Other required packages can be installed through      
+`install.packages("MendelianRandomization")`     
+`install.packages("ivmodel")`      
+Before run the code, packages should be load             
+`library(MendelianRandomization)`       
+`library(ivmodel)`        
 
-After load all functions
-Perform one simulation with bidirectional MR model       
-      `Sim_one(n_sim = 5, causal = "bi_infi", method = "all")`
+There are major three functions: 
+- Data.R, a function to generate simulated data
+    -  Example: `Data(causal = "uni")`
+-    
 
 
-
-Perform one simulation with unidirectional MR model:
-  Sim_one(n_sim = 5, causal = "uni", method = "all")
