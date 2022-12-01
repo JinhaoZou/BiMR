@@ -24,9 +24,8 @@ There are major three functions:
 - Sim_all.R, a function to generate 1000 simulation replicates with estimated causal effects for selected scenario setting 
     -  Example: `Sim_all(causal = "uni", method = "all")`
 
-## Examples for using current method to estimate the causal effect of your interested observational individual data      
-         
-         The sample data is saved in folder data/
+## Examples for using current method to estimate the causal effect of your interested observational individual data        
+      The sample data is saved in folder data/
 - 
 
 
