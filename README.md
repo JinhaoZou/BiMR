@@ -25,6 +25,7 @@ There are major three functions:
     -  Example: `Sim_all(causal = "uni", method = "all")`
 
 ## Examples for using current method to estimate the causal effect of your interested observational individual data
-The sample data is saved in data
+The sample data is saved in folder data/
+
 
 
