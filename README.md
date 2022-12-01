@@ -8,7 +8,7 @@ Main simulation code are in the folder R/
 
 After load all functions
 Perform one simulation with bidirectional MR model:
-    <p> Sim_one(n_sim = 5, causal = "bi_infi", method = "all")</p>
+`Sim_one(n_sim = 5, causal = "bi_infi", method = "all")`
 
 
 
