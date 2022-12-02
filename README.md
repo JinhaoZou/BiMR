@@ -30,7 +30,7 @@ The sample data is saved in folder data/
 Name of the data is called `example_dat`, which is a list include five data frames: `con`, `X1`, `X2`, `Y1`, `Y1`.       
 `con` is confounder, `Y1` and `Y2` are two phenotypes, `X1` are the instrumental variables for `Y1` and `X2` are the instrumental variables for `Y2`.     
 Example for estimation:      
-`Est_all(data = example_dat, method = "all")`/   
+`Est_all(data = example_dat, method = "all")`  
 
 
 
