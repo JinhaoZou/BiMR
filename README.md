@@ -31,6 +31,8 @@ Name of the data is called `example_dat`, which is a list include five data fram
 `con` is confounder, `Y1` and `Y2` are two phenotypes, `X1` are the instrumental variables for `Y1` and `X2` are the instrumental variables for `Y2`.     
 Example for estimation:      
 `Est_all(data = example_dat, method = "all")`  
+Result for estimation:     
+![Alt text](../images/example_dat_result.JPG "Optional title")
 
 
 
