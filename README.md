@@ -12,7 +12,8 @@ Other required packages can be installed through
 `install.packages("ivmodel")` (version 1.81 was used for manuscript)     
 Before run the code, packages should be load             
 `library(MendelianRandomization)`       
-`library(ivmodel)`        
+`library(ivmodel)`    
+`library(BiMR)`
 
 There are major three functions: 
 - Data.R, a function to generate simulated data
@@ -25,7 +26,11 @@ There are major three functions:
     -  Example: `Sim_all(causal = "uni", method = "all")`
 
 ## Examples for using current method to estimate the causal effect of your interested observational individual data        
-The sample data is saved in folder data/    
+The sample data is saved in folder data/     
+Name of the data is called `example_dat`, which is a list include five data frames: con, X1, X2, Y1, Y1.       
+`con` is confounder, `Y1` and `Y2` are two phenotypes, `X1` is the instrumental variables for `Y1` and `X2` is the instrumental variables for `Y2`.     
+Example for estimation:      
+`Est_all(data = example_dat, method = "all")`
 
 
 
