@@ -25,7 +25,7 @@ There are major three functions:
 - Sim_all.R, a function to generate 1000 simulation replicates with estimated causal effects for selected scenario setting 
     -  Example: `Sim_all(causal = "uni", method = "all")`
 
-## Examples for using current method to estimate the causal effect of your interested observational individual data        
+## Examples for estimation             
 The sample data is saved in folder data/     
 Name of the data is called `example_dat`, which is a list include five data frames: con, X1, X2, Y1, Y1.       
 `con` is confounder, `Y1` and `Y2` are two phenotypes, `X1` is the instrumental variables for `Y1` and `X2` is the instrumental variables for `Y2`.     
