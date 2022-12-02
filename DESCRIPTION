@@ -1,0 +1,10 @@
+Package: BiMR
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Jinhao Zou
+Maintainer: Jinhao Zou <jinhao.zou@uth.tmc.edu>
+Description: This package concludes the simulation and estimation code fro bidirectional Medelian Randomization model 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
