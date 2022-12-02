@@ -33,7 +33,13 @@ Example for estimation:
 `Est_all(data = example_dat, method = "all")`  
 Result for estimation:     
 ![Result](images/example_dat_result.JPG "Optional title")
-
+- Each column shows the estimation from each methods 
+- Row `g12` represent the estimated causal effects from `Y1` to `Y2`
+- Row `Sdg12` represent the S.D. of estimated g12
+- Row `CIlowg12` and `CIUpg12` represent the 95% confidence interval for estimation 'g12'
+- Row `g21` represent the estimated causal effects from `Y2` to `Y1`
+- Row `Sdg21` represent the S.D. of estimated g21
+- Row `CIlowg21` and `CIUpg21` represent the 95% confidence interval for estimation 'g21'
 
 
 
